@@ -1669,6 +1669,7 @@ footer{
        .tittle{
         display: flex;
         justify-content: flex-start;
+        flex-wrap: wrap;
         height: 50%;
         width: 100%;
         padding: 30px;
