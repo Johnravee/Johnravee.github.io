@@ -30,7 +30,7 @@ dark.addEventListener('click', ()=>{
    }
 })
 
-
+// Hamburger Menu 
 document.querySelector('#Hamburger').addEventListener('click', ()=>{
     document.querySelector('.links').classList.toggle('left')
     document.body.classList.toggle("forscroll")
