@@ -1557,7 +1557,7 @@ footer{
 }
 
 /* Mobile Landscape */
-@media (min-width:702px) and (max-width:867px){
+@media screen and (orientation: landscape) and (max-width:867px){
     *{
         margin: 0;
         padding: 0;
@@ -1653,7 +1653,7 @@ footer{
     /* ==Home== */
 
     .Home{
-        height: 160vh;
+        height: 200vh;
         width: 100%;
         background-color: var(--white-theme-bg);
      
@@ -1701,7 +1701,7 @@ footer{
 
       /*====== About=========*/
  .About{
-    height: 190vh;
+    height: 200vh;
     width: 100%;
  }
 
@@ -1719,7 +1719,7 @@ footer{
  }
 
  .skewdown{
-    top: 5%;
+    top: -3%;
     background-color: var(--sub-theme);
  }
 
@@ -1748,7 +1748,7 @@ footer{
  /*========== Project ============*/
 
  .project{
-    height: 550vh;
+    height: 400vh;
     width: 100%;
  }
 
@@ -2210,7 +2210,7 @@ footer{
  /* Project */
 
  .project{
-    height: 240vh;
+    height: 200vh;
     width: 100%;
  }
 
