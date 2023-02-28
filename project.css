@@ -56,7 +56,7 @@ nav{
 .links > #link{
     margin: 10px 20px 0px 20px;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 20px;
     color: var(--txt-color);
     position: relative;
     font-family: sans-serif;
@@ -89,6 +89,83 @@ nav{
 
 #Hamburger{
     display: none;
+}
+
+/* Project container */
+
+.Content{
+    background-color: var(--white-theme-bg);
+    height: 170vh;
+}
+
+.Content > h1{
+    font-size: 150px;
+    color: var(--txt-color);
+    font-family: sans-serif;
+    padding: 50px 0 50px 90px;
+
+}
+
+.container{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.imgs{
+    width: 600px;
+    height: 300px;
+    margin: 30px;
+    border-radius: 2px;
+    transform: scale(1);
+    overflow: hidden;
+}
+
+.container > .imgs > a > img{
+    height: 100%;
+    width: 100%;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: 1s;
+    
+}
+
+.imgs:hover a img{
+    transform: scale(1.1);
+}
+
+/* Banner */
+.name{
+    position: absolute;
+    color: #e2e2e2;
+    background-color: #010101;
+    top: 5%;
+    left: 3%;
+    border-radius: 5px;
+    width: auto;
+    padding: 5px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    font-weight: bold;
+    z-index: 1;
+    
+}
+
+.number{
+    position: relative;
+    color: #e2e2e2;
+    left: 3%;
+    bottom: 25%;
+    border-radius: 5px;
+    width: 20%;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    z-index: 1;
 }
 
 
