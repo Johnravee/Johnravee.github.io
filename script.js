@@ -1,6 +1,7 @@
 
 const dark = document.querySelector('#moon')
 
+// Get the key value of theme
 let darkCheck = localStorage.getItem('dark-theme')
 
 const darkmode = () =>{
@@ -37,6 +38,7 @@ document.querySelector('#Hamburger').addEventListener('click', ()=>{
     document.querySelector("#Hamburger").classList.toggle("bi-x-lg")
 })
 
+//Link events
 document.querySelectorAll("#link").forEach(li => li.addEventListener('click',()=>{
     document.querySelector('.links').classList.remove('left')
     document.body.classList.remove("forscroll")
