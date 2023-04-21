@@ -1403,7 +1403,8 @@ footer{
 /* Education */
 
 .Education{
-    height:140vh;
+    height:auto;
+    padding:  0 0 50px;
 }
 
 .Education > h1{
@@ -1677,7 +1678,7 @@ footer{
 
       /*====== About=========*/
  .About{
-    height: 200vh;
+    height: 10vh;
     width: 100%;
  }
 
@@ -1724,7 +1725,7 @@ footer{
  /*========== Project ============*/
 
  .project{
-    height: 630vh;
+    height: 550vh;
     width: 100%;
  }
 
@@ -1866,7 +1867,7 @@ footer{
 /* Education */
 
 .Education{
-    height:320vh;
+    height:330vh;
 }
 
 .EducSkew{
@@ -2327,7 +2328,8 @@ footer{
 /* Education */
 
 .Education{
-    height:180vh;
+    height:auto;
+    padding: 0 0 50px;
 }
 
 .Education > h1{
@@ -2350,6 +2352,7 @@ footer{
   .box1{
     width: 90%;
   }
+
 
   .certificates > h1{
     font-size: 40px;
