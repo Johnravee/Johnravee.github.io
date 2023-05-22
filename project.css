@@ -39,15 +39,18 @@ nav{
 }
 
 .logo{
+  position: relative;
+  left: 10%;
+}
+
+.logo > a{
     font-size: 25px;
     cursor: pointer;
     font-weight: bold;
     font-family: sans-serif;
-    position: relative;
-    left: 10%;
-
-}
-
+    text-decoration: none;
+    color: var(--txt-color); 
+  }
 
 .icons{
     margin-left: auto;
