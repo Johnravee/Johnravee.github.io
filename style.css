@@ -1536,9 +1536,7 @@ footer{
 }
 
 /* Mobile Landscape */
-@media only screen and (min-device-width: 480px) 
-                   and (max-device-width: 640px) 
-                   and (orientation: landscape) {
+@media screen and (orientation: landscape) and (max-width:867px){
     *{
         margin: 0;
         padding: 0;
@@ -1873,8 +1871,7 @@ footer{
 /* Education */
 
 .Education{
-    height: auto;
-    width: 100%;
+    height:auto;
 }
 
 
