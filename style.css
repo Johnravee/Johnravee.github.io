@@ -305,7 +305,7 @@ nav{
  /* Project section */
 
  .project{ 
-    height: 200vh;
+    height: auto;
     width: 100%;
     background-color: var(--sub-theme);
  }
