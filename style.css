@@ -1536,7 +1536,9 @@ footer{
 }
 
 /* Mobile Landscape */
-@media screen and (max-device-width: 767px) and (orientation: landscape){
+@media only screen and (min-device-width: 480px) 
+                   and (max-device-width: 640px) 
+                   and (orientation: landscape) {
     *{
         margin: 0;
         padding: 0;
