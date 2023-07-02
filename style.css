@@ -1871,7 +1871,8 @@ footer{
 /* Education */
 
 .Education{
-    height:330vh;
+    height: auto;
+    width: 100%;
 }
 
 
@@ -1895,6 +1896,12 @@ footer{
 
   .box1{
     width: 90%;
+  }
+
+  .certificates{
+    height: auto;
+    width: 100%;
+    padding-bottom: 30px;
   }
 
   .certificates > h1{
