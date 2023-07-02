@@ -923,7 +923,7 @@ footer{
       
        }
 
-       
+
     .tittle{
         display: flex;
         flex-direction: column;
@@ -1731,7 +1731,7 @@ footer{
  /*========== Project ============*/
 
  .project{
-    height: 550vh;
+    height: auto;
     width: 100%;
  }
 
