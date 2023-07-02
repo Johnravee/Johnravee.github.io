@@ -1536,7 +1536,7 @@ footer{
 }
 
 /* Mobile Landscape */
-@media screen and (orientation: landscape) and (max-width:867px){
+@media screen and (min-width: 702px) and (max-width:867px){
     *{
         margin: 0;
         padding: 0;
