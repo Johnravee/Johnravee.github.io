@@ -8,8 +8,8 @@
 
 :root{
     --txt-color:#333333;
-    --white-theme-bg:#f0f0f0f5;
-    --sub-theme:#d3d3d3;
+    --white-theme-bg:#ffff;
+    --sub-theme:#F1F1F1;
     --highligted: #39bb22;
     --debug : #FF0000;
 }
@@ -17,7 +17,7 @@
 .darkmode{
     --txt-color:#ebebeb;
     --white-theme-bg:#0f0f0ff5;
-    --sub-theme:#201f1f;
+    --sub-theme:#1f201f;
 }
 
 
@@ -213,22 +213,13 @@ nav{
     height: 10vh;
     width: 100%;
     background-color: var(--sub-theme);
-    transform: skewY(-1deg);
+    transform: skewY(2deg);
     position: relative;
-    top: 2%;
+    top: -6%;
     z-index: 1;
  }
 
- .skewdown{
-    height: 10vh;
-    width: 100%;
-    background-color: var(--sub-theme);
-    transform: skewY(1deg);
-    position: relative;
-    top: 5%;
-    
-     
- }
+
 
  .aboutbody{
     width: 100%;
@@ -315,7 +306,7 @@ nav{
  .project{ 
     height: 200vh;
     width: 100%;
-    background-color: var(--white-theme-bg);
+    background-color: var(--sub-theme);
  }
 
 .prj-tittle{

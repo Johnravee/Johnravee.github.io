@@ -78,7 +78,7 @@ nav{
 
 .Content{
     background-color: var(--white-theme-bg);
-    height: 170vh;
+    height: auto;
 }
 
 .Content > h1{
