@@ -112,10 +112,11 @@ nav{
 
 }
 
-.tempo{
+.tempo img{
     height: 400px;
     width: 400px;
-    background-color: #333333;
+    object-fit: cover;
+   border-radius: 77% 23% 72% 28% / 25% 74% 26% 75% ;
 }
 
 
