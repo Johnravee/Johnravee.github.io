@@ -586,14 +586,7 @@ nav{
 }
 
 
-.EducSkew{
-    height: 10vh;
-    width: 100%;
-    position: relative;
-    transform: skewY(-1 deg);
-    background-color: var(--sub-theme);
-    top: -5%;
-}
+
 
 .Education > h1{
     font-size: 100px;
@@ -1876,10 +1869,7 @@ footer{
     height:330vh;
 }
 
-.EducSkew{
-    top: -2%;
-    background-color: var(--sub-theme);
-}
+
 
 .Education > h1{
     font-size: 70px;
