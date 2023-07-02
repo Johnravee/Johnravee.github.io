@@ -984,7 +984,9 @@ footer{
      /* ===============Project========== */
      
      .project{
-        height: 160vh;
+        height: auto;
+        padding-bottom: 30px;
+        width: 100%;
      }
 
      .box1{
@@ -1260,7 +1262,8 @@ footer{
  /*========== Project ============*/
 
  .project{
-    height: 200vh;
+    height: auto;
+    padding-bottom: 30px;
     width: 100%;
  }
 
@@ -1726,6 +1729,7 @@ footer{
 
  .project{
     height: auto;
+    padding-bottom: 30px;
     width: 100%;
  }
 
@@ -2185,7 +2189,8 @@ footer{
  /* Project */
 
  .project{
-    height: 240vh;
+    height: auto;
+    padding-bottom: 30px;
     width: 100%;
  }
 
