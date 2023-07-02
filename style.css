@@ -1681,7 +1681,7 @@ footer{
 
       /*====== About=========*/
  .About{
-    height: 10vh;
+    height: auto;
     width: 100%;
  }
 
