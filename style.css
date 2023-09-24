@@ -628,13 +628,31 @@ nav{
     justify-content: center;
     padding: 10px;
     background-color: var(--txt-color);
-    border-radius: 200px 200px 50px 50px;
-    
-   
-    
+    border-radius: 200px 200px 50px 50px;  
+    animation: pointerAnimation 3s infinite normal;
   }
+
+  @keyframes pointerAnimation {
+    0%{
+        background-color: var(--txt-color); 
+    }
+    25%{
+        background-color: #6e6e6e;
+    }
+    50%{
+        background-color: #d3d3d3;
+    }
+    75%{
+        background-color: #f3f3f3;
+    }
+    100%{
+        background-color: #39bb22;
+    }
+  }
+
   
   .line1{
+    animation: pointerAnimation 2.8s infinite normal ;
     position: relative;
     display: flex;
     justify-content: center;
