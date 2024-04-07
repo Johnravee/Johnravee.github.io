@@ -8,8 +8,8 @@
 
 :root{
     --txt-color:#333333;
-    --white-theme-bg:#ffff;
-    --sub-theme:#F1F1F1;
+    --white-theme-bg:#f8f8f8;
+    --sub-theme: #E1EBD9;
     --highligted: #39bb22;
     --debug : #FF0000;
 }
