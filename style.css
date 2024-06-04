@@ -1163,7 +1163,7 @@ footer{
 
     .icons{
         display: flex;
-        margin-left: 12cm;
+        margin-left: auto;
         align-items: center;
         justify-content: center;
         
